@@ -1,0 +1,227 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+body{
+    background-image: url(images/cycling_benefits_styrkr.webp);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    background: linear-gradient(
+        rgb(46, 204, 113, 1),
+        rgb(46, 204, 113, 0)
+    );
+    align-items: top;
+    height: 230px;
+    padding-top: 10px;
+}
+
+.Logo {
+    display: flex;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+}
+
+#title {
+    color: rgb(255,255,255);
+    display: inline;
+    width: 300px;
+    font-size: 30px;
+    margin: 0px;
+    margin-top: 25px;
+    padding: 0px;
+    margin-left: 20px;
+    font-family: "Pacifico", cursive;
+}
+
+#header{
+    width: 1000px;
+    text-align: right;
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+.header {
+    display: inline;
+    text-align: right;
+    background-color: rgb(240, 248, 255 ,0);
+    border-color: white;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 40%;
+    color: white;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+#home_drag {
+    opacity: 1;
+}
+
+.header:hover{
+    opacity: 1;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#services, #about, #contact{
+    color: white;
+}
+
+.First_part{
+    padding-left: 10%;
+    margin-bottom: 300px;
+}
+
+#Welcome{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#body_paragraph{
+    color: white;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 60%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.more{
+    background: rgb(20, 147, 20);
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.more:hover{
+    cursor: pointer;
+    background: rgb(44, 197, 44);
+}
+
+#About_Services {
+    width: 100%;
+    height: 1550px;
+    background: white;
+    margin: 0px;
+}
+
+#About{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.bikes {
+    width: 49%;
+}
+
+#Text_About{
+    width: 50%;
+    display: inline-block;
+    padding-left: 130px;
+    padding-top: 110px;
+}
+
+.head{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(44, 197, 44);
+    margin-bottom: 30px;
+}
+
+.bold_head{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 41px;
+    width: 520px;
+    margin-bottom: 30px;
+}
+
+.small{
+    font-family: "Montserrat", sans-serif;
+    opacity: 0.7;
+    width: 520px;
+    line-height: 1.5;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+#Services {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 180px;
+}
+
+.services {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+.service_image {
+    width: 140px;
+}
+
+.small_head {
+    font-family: 'montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.service_one .small, .service_two .small {
+    margin-top: 30px;
+}
+
+.service_one, .service_two{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.service_one:hover, .service_two:hover{
+    background-color: rgb(44, 197, 44);
+    transition: background-color 0.3s;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.5);
+}
+
+.service_one:hover .small_head, .service_one:hover .small, .service_two:hover .small_head, .service_two:hover .small {
+    color: white;
+    transition: color 0.3s;
+}
+
+footer{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+@media (max-width: 767px) {
+    #header {
+         margin-right: 30px;
+    }
+}

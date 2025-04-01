@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+body{
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    background: linear-gradient(
+        rgb(46, 204, 113, 1),
+        rgb(46, 204, 113, 0)
+    );
+    align-items: top;
+    height: 230px;
+    padding-top: 10px;
+}
+
+.Logo {
+    display: flex;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+}
+
+#title {
+    color: rgb(255,255,255);
+    display: inline;
+    width: 300px;
+    font-size: 30px;
+    margin: 0px;
+    margin-top: 25px;
+    padding: 0px;
+    margin-left: 20px;
+    font-family: "Pacifico", cursive;
+}
+
+#header{
+    width: 1000px;
+    text-align: right;
+    font-size: 17px;
+    margin-top: 40px;
+}
+
+.header {
+    display: inline;
+    text-align: right;
+    background-color: rgb(240, 248, 255 ,0);
+    border-color: white;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 40%;
+    color: white;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.header:hover {
+    opacity: 1;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#services_drag {
+    opacity: 1;
+}
+
+.rental-info {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bike {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.bike img {
+    width: 150px;
+    height: auto;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
